@@ -27,6 +27,14 @@
                     <execution>
                         <goals>
                             <goal>execute</goal>
+                            <goal>addSources</goal>
+                            <goal>addTestSources</goal>
+                            <goal>generateStubs</goal>
+                            <goal>compile</goal>
+                            <goal>generateTestStubs</goal>
+                            <goal>compileTests</goal>
+                            <goal>removeStubs</goal>
+                            <goal>removeTestStubs</goal>
                         </goals>
                     </execution>
                 </executions>
@@ -34,7 +42,7 @@
                     <dependency>
                         <groupId>org.apache.groovy</groupId>
                         <artifactId>groovy</artifactId>
-                        <version>4.0.2</version>
+                        <version>4.0.6</version>
                         <scope>runtime</scope>
                     </dependency>
                 </dependencies>
